@@ -1,0 +1,19 @@
+ .recipe-card:hover .recipe-image {
+            transform: scale(1.05);
+        }
+        .recipe-image {
+            transition: transform 0.3s ease;
+        }
+        .favorite-btn:hover {
+            transform: scale(1.1);
+        }
+        .favorite-btn {
+            transition: transform 0.2s ease;
+        }
+        .active-category {
+            background-color: #f59e0b;
+            color: white;
+        }
+        .modal {
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
